@@ -1,0 +1,105 @@
+/*Estilo al cuerpo de la Pagina*/
+body{background: url(Imagenes/trabajando.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    padding-bottom:0 ;
+    }
+    .barra{
+        position: absolute;
+        top: 0px;
+        background: black;opacity: .75;
+        width:1165.8px ;
+        font-family: calibri;
+        font-size: 22px;
+        color: white;
+        height: 80px;
+        padding-right: 100px;
+        padding-left: 100px;
+         
+    }
+    .menu li a{ 
+        background: #000;
+        color: #ffffff;
+        text-decoration: none; /* Es para quitar la rayas de abajo */
+        padding: 10px 15px;
+        display: block;  
+        position: relative;
+        right: 0px;
+        top:-60px;
+    }
+    ul{
+        list-style: none;/* para quitar puntos a las listas desordenadas*/
+    }
+    .menu li a{ 
+        background: white;
+        color: #0489B1;
+        text-decoration: none; /* Es para quitar la rayas de abajo */
+        padding: 10px 15px;
+        display: block;  
+        position: relative;
+        left: 900px;
+        border-radius: 7px;
+    }
+    .menu li a:hover{ /* estilo dinamico para un enlaze */
+        background-color: grey ;
+        color: white;
+        padding: 10px 20px;
+        border-bottom: 2px solid black;
+    }
+    .menu > li{/* Para que los menus  se mueve a la izquierda */
+        float: left; 
+    }
+    .menu li ul{/*estilo para submenus de listas desordenadas */
+        display: none;/* es para que submenu de destino turisticos, sea dinamica y se desaparezca*/
+        position: absolute;
+        right: 1020px;
+        min-width: 170px; 
+    }
+    .menu li:hover > ul{/* estilo dinamico para submenus,cuando pasa el mouse en menu principal, que aparezca los submenus */
+        display: block;
+    }
+    .subcuerpo{
+        position: relative;
+        top: 100px;
+        font-family: calibri;
+        color: white;
+        font-size: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }
+    .registrate{
+        font-family: calibri;
+        font-size: 30px;
+        margin: 0em 5px;
+        top: 1em;
+        background-color:#04B431;
+        padding-right: 40px;
+        padding-left: 40px;
+        white-space: nowrap;
+        border-color: #04B431;
+        border-radius:10px ;
+        left: 100px;
+        position: relative;
+    }
+    .registrate a{
+        text-decoration:none;  
+    }
+    .registrate:hover{
+        background-color:green ;
+         color:blue;
+        
+    }
+    a:link{ color: white;}
+    a:visited{color: white;}
+    a:active{color: white;}
+
+    blockquote{
+        border-top: thin dotted;
+        font-size: 23px;
+        font-family: calibri;
+    }
+

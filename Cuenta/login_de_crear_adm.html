@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crear Cuenta-Administrador</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo_crear_adm.css">
+    </head>
+    <body>
+         
+        <div class="registro">
+            <p class="titulo" align="justify"><center><a href="../index.html"><img src="logo.png" width="60px"></a></center>
+                <font size="6"><center><b>Registrate Ahora</b><br>Facil, sencillo y rapido</center></font>
+                </p>
+            <br>
+        <form method="POST" >
+            Nombre:<br><input type="text" name="nombre" class="diseño" placeholder="Nombre" maxlength="40">
+            <input type="text" name="apellido" placeholder="Apellidos" class="diseño" maxlength="40"><br><br>
+            Profesor de:<br><input type="text" name="materis" class="diseño" placeholder="Materia" maxlength="100"><br><br>
+            Cedula:<br><input type="text" name="apodo" class="diseño" maxlength="40"><br><br>
+            Contraseña:<br><input type="password" pattern="[A-Za-z][A-Za-zO-9]*[0-9][A-Za-zO-9]*" title="una contraseña valida de caracteres" required name="Contraseña" class="diseño" maxlength="8"><br><i>8 caracteres como minimo, distingue mayusculas de minusculas.</i><br><br>
+            Confirma su contraseña:<br><input type="password" name="Contraseña" pattern="[A-Za-z][A-Za-zO-9]*[0-9][A-Za-zO-9]*" title="una contraseña valida de caracteres" required class="diseño" maxlength="8"><br><br>
+            Correo Electronico:<br>
+            <input type="email" name="correo" class="diseño"  placeholder="example@gmail.com" maxlength="40"><br><br>
+            Fecha de nacimiento: <br>
+            <input type="number" name="Dia" class="diseño" placeholder="Dia" maxlength="40">
+            <select class="boton">
+             <option value="Mes" selected>Mes</option>
+             <option value="Enero">Enero</option>
+             <option value="Febrero">Febrero</option>
+             <option value="Marzo">Marzo</option>
+             <option value="Abril">Abril</option>
+              <option value="Mayo">Mayo</option>
+             <option value="Junio">Junio</option>
+             <option value="Julio">Julio</option>
+             <option value="Agosto">Agosto</option>
+             <option value="Septiembre">Septiembre</option>
+             <option value="Octubre">Octubre</option>
+             <option value="Noviembre">Noviembre</option>
+             <option value="Diciembre">Diciembre</option>
+            </select>
+            <input type="number" name="Año" class="diseño"  placeholder="Año" maxlength="40"><br><br>
+            Sexo:<br>
+            <input type="radio" name="sex" value="male" /> Hombre<br />
+            <input type="radio" name="sex" value="female" /> Mujer<br>
+            <br><br><input type="submit" name="Registrarse" value="Guardar Cambios" class="boton"> <input type="reset" class="boton" value="Borra los datos introducidos" name="cancelar">                    
+        </form>  
+        </div>
+    </body>
+</html>
