@@ -18,22 +18,28 @@ body{background: url(Imagenes/trabajando.jpg) ;
         height: 80px;
         padding-right: 100px;
         padding-left: 100px;
-
     }
+  table{
+    position: relative;
+    left: 400px;
+    width: 400px;
+    top:-30px;
+  }
     .mover{
       position: relative;
       left: 900px;
       width: 300px;
-      top: -50px
+      top: -90px
     }
     .menu li a{
         background: #000;
         color: #ffffff;
         text-decoration: none; /* Es para quitar la rayas de abajo */
-        padding: 10px 15px;
+        padding: 15px 10px;
         display: block;
         position: relative;
-        right: 0px
+
+
     }
     ul{
         list-style: none;/* para quitar puntos a las listas desordenadas*/
@@ -42,7 +48,7 @@ body{background: url(Imagenes/trabajando.jpg) ;
         background: white;
         color: #0489B1;
         text-decoration: none; /* Es para quitar la rayas de abajo */
-        padding: 8px 10px;
+        padding: 10px 12px;
         display: block;
         position: relative;
         border-radius: 7px;
@@ -53,12 +59,12 @@ body{background: url(Imagenes/trabajando.jpg) ;
         border-bottom: 2px solid black;
     }
     .menu > li{/* Para que los menus  se mueve a la izquierda */
-        float: left;
+         float: left;
     }
     .menu li ul{/*estilo para submenus de listas desordenadas */
         display: none;/* es para que submenu de destino turisticos, sea dinamica y se desaparezca*/
         position: absolute;
-        right: 70px;
+        right: 110px;
         min-width: 50px;
 
     }
