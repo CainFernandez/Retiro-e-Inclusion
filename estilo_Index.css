@@ -19,12 +19,21 @@ body{background: url(Imagenes/trabajando.jpg) ;
         padding-right: 100px;
         padding-left: 100px;
     }
-  table{
-    position: relative;
-    left: 400px;
-    width: 400px;
-    top:-30px;
-  }
+    table{
+      position: relative;
+      width: 400px;
+      left: 400px;
+      top:-24.9px;
+    }
+    .table_submenu a{
+      text-decoration: none;
+    }
+    .table_submenu th  :hover{
+      background-color: transparent;
+      color: white;
+      border-bottom: 1px solid gray;
+    }
+
     .mover{
       position: relative;
       left: 900px;
@@ -38,8 +47,6 @@ body{background: url(Imagenes/trabajando.jpg) ;
         padding: 15px 10px;
         display: block;
         position: relative;
-
-
     }
     ul{
         list-style: none;/* para quitar puntos a las listas desordenadas*/
@@ -57,6 +64,7 @@ body{background: url(Imagenes/trabajando.jpg) ;
         background-color: grey ;
         color: white;
         border-bottom: 2px solid black;
+
     }
     .menu > li{/* Para que los menus  se mueve a la izquierda */
          float: left;
