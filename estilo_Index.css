@@ -20,7 +20,51 @@ body{background: url(Imagenes/trabajando.jpg) ;
         padding-left: 100px;
 
     }
-  
+    .mover{
+      position: relative;
+      left: 900px;
+      width: 300px;
+      top: -50px
+    }
+    .menu li a{
+        background: #000;
+        color: #ffffff;
+        text-decoration: none; /* Es para quitar la rayas de abajo */
+        padding: 10px 15px;
+        display: block;
+        position: relative;
+        right: 0px
+    }
+    ul{
+        list-style: none;/* para quitar puntos a las listas desordenadas*/
+    }
+    .menu li a{
+        background: white;
+        color: #0489B1;
+        text-decoration: none; /* Es para quitar la rayas de abajo */
+        padding: 8px 10px;
+        display: block;
+        position: relative;
+        border-radius: 7px;
+    }
+    .menu li a:hover{ /* estilo dinamico para un enlaze */
+        background-color: grey ;
+        color: white;
+        border-bottom: 2px solid black;
+    }
+    .menu > li{/* Para que los menus  se mueve a la izquierda */
+        float: left;
+    }
+    .menu li ul{/*estilo para submenus de listas desordenadas */
+        display: none;/* es para que submenu de destino turisticos, sea dinamica y se desaparezca*/
+        position: absolute;
+        right: 70px;
+        min-width: 50px;
+
+    }
+    .menu li:hover > ul{/* estilo dinamico para submenus,cuando pasa el mouse en menu principal, que aparezca los submenus */
+        display: block;
+    }
     .subcuerpo{
         position: relative;
         top: 100px;
