@@ -1,4 +1,4 @@
-body{background: url(Imagenes/Mujer.jpg) ;
+body{background: url(../Imagenes/Mujer.jpg) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -20,7 +20,7 @@ div {
     bottom:23px ;
     right: 0px;
     left:60px ;
-    
+
 }
 
  .introducir{
@@ -38,7 +38,7 @@ form{/* para mover las letras a cualquier lado */
     font-family: california FB;
 }
 .cuenta a{
-    text-decoration:none;  
+    text-decoration:none;
 }
 .cuenta a:hover{
     border-bottom: 1px solid blue;
@@ -52,7 +52,7 @@ form{/* para mover las letras a cualquier lado */
 }
 .boton:hover{
     background-color: rgb(0, 140, 255);
-    color:white;    
+    color:white;
 }
 a:link{ color: blue;}
     a:visited{color:blue;}
