@@ -1,0 +1,136 @@
+/*1. Estilo cuerpo de la Pagina Web*/
+body{background: url(../Imagenes/trabajando.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    padding-bottom:0 ;
+}
+
+/*2. Estilo para Menu de Baras */
+.barra{
+  position: absolute;
+  top: 0px;
+  background: black;opacity: .75;
+  width:1165.8px ;
+  font-family: calibri;
+  font-size: 22px;
+  color: white;
+  height: 80px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/*3. Estilo de MENU DE BARRAS de de inicio, retiro e inclusion */
+table{
+      position: relative;
+      width: 400px;
+      left: 400px;
+      top:-24.9px;
+    }
+    .table_submenu a{
+      text-decoration: none;
+      color: white;
+    }
+    .table_submenu th  :hover{
+      background-color: transparent;
+      color: whitesmoke;
+      border-bottom: 1px solid gray;
+    }
+ /*5. Estilo de Submenus de Inicio Sesion*/
+.mover{
+      position: relative;
+      left: 900px;
+      width: 300px;
+      top: -90px
+    }
+/* 6. dando forma a la clase .menu,ul,li,a*/
+    .menu li a{
+        background: #000;
+        color: #ffffff;
+        text-decoration: none; /* Es para quitar la rayas de abajo */
+        padding: 15px 10px;
+        display: block;
+        position: relative;
+    }
+    ul{
+        list-style: none;/* para quitar puntos a las listas desordenadas*/
+    }
+    .menu li a{
+        background: white;
+        color: #0489B1;
+        text-decoration: none; /* Es para quitar la rayas de abajo */
+        padding: 10px 12px;
+        display: block;
+        position: relative;
+        border-radius: 7px;
+    }
+    .menu li a:hover{ /* estilo dinamico para un enlaze */
+        background-color: grey ;
+        color: white;
+        border-bottom: 2px solid black;
+
+    }
+    .menu > li{/* Para que los menus  se mueve a la izquierda */
+         float: left;
+    }
+    .menu li ul{/*estilo para submenus de listas desordenadas */
+        display: none;/* es para que submenu de destino turisticos, sea dinamica y se desaparezca*/
+        position: absolute;
+        right: 110px;
+        min-width: 50px;
+
+    }
+    .menu li:hover > ul{/* estilo dinamico para submenus,cuando pasa el mouse en menu principal, que aparezca los submenus */
+        display: block;
+    }
+/*7. dandole estilo el cuerpo del formulario de fieldset con la clase*/
+    .cuerpo-formulario{
+    background: white;
+    width: 1020px;
+    height: 240px;
+    margin-left: 128px;
+    margin-top: 180px;
+    padding: 10px 30px;
+    border-top: 10px solid gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+  }
+  .cuerpo-formulario input{
+    border-radius: 7px;
+  }
+  .cuerpo-formulario button{
+    border-radius: 7px;
+    position: relative;
+    left: 250px;
+    margin: 10px 10px
+  }
+  .cuerpo-formulario button:hover{
+    background-color: #01A9DB;
+    color: white;
+  }
+  .cuerpo-formulario select{
+  border-radius: 7px;
+  width: 150px;
+  }
+  /*8. dandole estilo el Subcuerpo del formulario de fieldset con la clase*/
+  .Subcuerpo-formulario {
+    color: black;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+   padding-left: 100px;
+   padding-right: 100px;
+  }
+
+  /*9. etilo de la tabla de retiro e inclusion.*/
+  .style_tabla{
+    width: 1020px;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   text-align: left;
+   position: relative;
+   left: 0px;
+   border-collapse: 1px solid black;
+  }

@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <title>Retiro e Inclusión</title>
+        <link rel="stylesheet" href="css/estilo_retiro-inclusion.css">
+    </head>
+    <body>
+      <div class="barra">
+   <a href="index.html"><img src="Imagenes/logo.png" width="80px" title="Logo de UP"align="left" > </a><br><strong>Retiro e Inclusión </strong>
+   <table >
+     <tr class="table_submenu">
+				<th colspan="2"><a href="index.html">Inicio</a></th>
+				<th><a href="retiro_inclusion.html">Retiro e Inclusión</a></th>
+			</tr>
+   </table>
+   <div class="mover">
+   <ul class="menu">
+       <li><a href="">Iniciar Sesion</a>
+       <ul>
+           <li><a href="login_de_registrar.html">Estudiante</a></li>
+           <li><a href="login_de_registrar.html">Administrador</a></li>
+       </ul>
+      </li>
+   </ul>
+</div>
+</div>
+<fieldset class="cuerpo-formulario">
+        <fieldset class="Subcuerpo-formulario">
+        <form>
+            <label for="txtNombre">Nombre Completo:  </label>
+            <input type="text" id="txtNombre" placeholder="Nombre">
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <label for="txtCedula">Cédula:</label>
+             <input type="number" id="txtCedula"><br><br>
 
+            <label for="txtTipo">Trámite:</label>
+            <select id="txtTipo" class="for-retiro">
+            <option placeholder="Tramite" value="No Válido" select><--Selecionar Tipo--></option>
+            <option value="Inclusion">Inclusion</option>
+            <option value="Retiro">Retiro</option>
+            </select>
+
+             <label for="txtAsig"><strong>Asignaturas:</strong></label>
+             <select id="txtAsig" class="for-retiro">
+             <option placeholder="Asignaturas" value="No Válido" select><--Seleccionar Tipo--></option>
+             <option value="Rede">Redes</option>
+             <option value="Principio de Economia">Principio de Economía</option>
+             <option value="Adminitracion de Empresa">Adminitración de Empresa</option>
+             <option value="Estructuras de Datos">Estructuras de Datos</option>
+             <option value="Mercadotecnia y Publicidad en Internet">Mercadotecnia y Publicidad en Internet</option>
+            </select>
+            <br><br>
+           <label for="txtFecha">Fecha:</label>
+          <input type="date" id="txtFecha">
+
+          <label for="txtEmail">Email:</label>
+          <input type="email" id="txtEmail" placeholder="@gmail.com">
+          <br></br>
+          <label for="txtFacultad">Facultad:</label>
+          <input type="text" id="txtFacultad">
+          <br><br>
+          <button type="button" id="btnGuardar">Guardar</button>
+          <button type="reset" name="button">Borrar Datos</button>
+        </form>
+      </fieldset><br><br>
+    <table id="tblPersonas" class="style_tabla" borde="2x">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Tipo de Tramite</th>
+            <th>Asignatura</th>
+             <th>Fecha</th>
+            <th>select</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+     </table>
+  </fieldset>
+        <script src="js/ControlarRetiro-Inclusion.js"></script>
+       <script src="js/LogicaRetiro-Inclusion.js"></script>
+  </body>
+</html>
