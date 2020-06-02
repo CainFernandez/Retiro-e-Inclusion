@@ -15,6 +15,9 @@ function obtenerDatos(){
     let inputNombre = document.querySelector('#txtNombre');
     let sNombre = inputNombre.value;
 
+    let inputCedula = document.querySelector('#txtCedula');
+    let sCedula = inputCedula.value;
+
     let inputTramite = document.querySelector('#txtTipo');
     let sTramite = inputTramite.value;
 
@@ -30,7 +33,7 @@ function obtenerDatos(){
     let inputFacultad = document.querySelector('#txtFacultad');
     let sFacultad = inputFacultad.value;
 
-    infoPersona.push(sNombre, sTramite, sAsignatura, sFecha, sEmail, sFacultad);
+    infoPersona.push(sNombre, sCedula, sTramite, sAsignatura, sFecha, sEmail, sFacultad);
 
     registrarRetiroInclusion(infoPersona);
     imprimirRetiroInclusion();
@@ -49,9 +52,9 @@ function imprimirRetiroInclusion(){
         let cFecha = fila.insertCell();
 
         cNombre.innerHTML = informacionPersonas[i][0];
-        cTramite.innerHTML = informacionPersonas[i][1];
-        cAsignatura.innerHTML = informacionPersonas[i][2];
-        cFecha.innerHTML = informacionPersonas[i][3];
+        cTramite.innerHTML = informacionPersonas[i][2];
+        cAsignatura.innerHTML = informacionPersonas[i][3];
+        cFecha.innerHTML = informacionPersonas[i][4 ];
     }
 
 };
