@@ -6,9 +6,9 @@ body{background: url(../Imagenes/trabajando.jpg) ;
     margin: 0;
     padding: 0;
     padding-bottom:0 ;
-    }
-    .barra{
-        position: absolute;
+}
+  .barra{
+      position: absolute;
         top: 0px;
         background: black;opacity: .75;
         width:1165.8px ;
